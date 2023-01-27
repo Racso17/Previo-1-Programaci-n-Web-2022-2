@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Previo 1</title>
+    <link rel="stylesheet" href="PrevioCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<style>
+    h1 {text-align: center;} 
+</style>
+<body>
+    <div class="cuerpo" onload="getData()">
+        <div>
+            <div class="title">
+                <h1>Resultado</h1>
+            </div>
+            <div class="justify-content-center alignment">
+                <div class="card col-sm-5 text-center shadow">
+                    <div class="row front sections">
+                        <div class="col-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emoji_Grinning_Face_Smiling_Eyes.svg" alt="Sonrisa" class="m-3">
+                        </div>
+                        <div class="col-8 name">
+                            <h1 id="nameData" class="nameData"></h1>
+                            <h1 class="ficha">Ficha</h1>
+                        </div>
+                    </div>
+                    <div class="data row sections text-center">
+                        <div class="left col-6">
+                            <h3>Email</h3>
+                        </div>
+                        <div class="right col-6">
+                            <span id="emailData" class="emailData"></span>
+                        </div>
+                    </div>
+                    <div class="data row sections text-center ">
+                        <div class="left col-6">
+                            <h3>Telefono</h3>
+                        </div>
+                        <div class="right col-6">
+                            <span id="phoneData" class="phoneData"></span>
+                        </div>
+                    </div>
+                    <div class="data row sections text-center ">
+                        <div class="left col-6">
+                            <h3>Gusto</h3>
+                        </div>
+                        <div class="right col-6">
+                            <span id="gustoData" class="gustoData"></span>
+                        </div>
+                    </div>
+                    <div class="data row sections text-center  percentage">
+                        <div class="left col-6">
+                            <h3>Porcentaje %</h3>
+                        </div>
+                        <div class="right col-6">
+                            <spani id="porcentajeData" class="porcentajeData"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="DataPrevio.js"></script>
+</body>
+</html>
